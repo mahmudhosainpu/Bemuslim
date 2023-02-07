@@ -8,6 +8,7 @@ import OrderSummaries from "./OrderSummaries/OrderSummaries";
 import ProductOverviews from "./ProductOverviews/ProductOverviews";
 import ProductQuickviews from "./ProductQuickviews/ProductQuickviews";
 import Reviews from "./Reviews/Reviews";
+import LogIn from "./LogIn/LogIn";
 
 function App() {
   const [scrollToContent, contentRef] = useScroll()
@@ -30,6 +31,7 @@ function App() {
         <ProductOverviews/>
         <ProductQuickviews/>
         <Reviews/>
+        <LogIn/>
 
 
       </div>
